@@ -1,7 +1,8 @@
-const express = require("express");
-const { Kkiapay } = await require("@kkiapay-org/nodejs-sdk");
-require("dotenv").config();
+import express from "express";
+import dotenv from "dotenv";
+import { kkiapay } from "@kkiapay/node-sdk";
 
+dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
 
