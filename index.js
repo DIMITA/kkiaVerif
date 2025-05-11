@@ -1,5 +1,5 @@
 const express = require("express");
-const { Kkiapay } = require("@kkiapay/node-sdk");
+const { Kkiapay } = require("@kkiapay-org/nodejs-sdk");
 require("dotenv").config();
 
 const app = express();
